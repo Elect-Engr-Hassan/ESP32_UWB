@@ -29,6 +29,7 @@ void setup() {
   DW1000Ranging.attachInactiveDevice(inactiveDevice);
 
   DW1000Ranging.startAsAnchor(ANCHOR_UID, DW1000.MODE_LONGDATA_RANGE_ACCURACY, false);
+//   DW1000Ranging.startAsAnchor(ANCHOR_UID, DW1000.MODE_SHORTDATA_FAST_LOWPOWER, false);
 
   Serial.println("### Anchor Started ###");
 }
