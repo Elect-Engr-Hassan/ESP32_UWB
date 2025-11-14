@@ -1,5 +1,5 @@
 # ESP32_UWB
-##connections
+## connections
 | DW1000 Pin | ESP32 Pin (example) |
 | ---------- | ------------------- |
 | VCC        | 3.3V                |
