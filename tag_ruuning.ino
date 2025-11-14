@@ -29,6 +29,7 @@ void setup() {
   DW1000Ranging.attachInactiveDevice(inactiveDevice);
 
   DW1000Ranging.startAsTag(TAG_UID, DW1000.MODE_LONGDATA_RANGE_ACCURACY);
+ // DW1000Ranging.startAsTag(TAG_UID, DW1000.MODE_SHORTDATA_FAST_LOWPOWER);
 
   Serial.println("### Tag Started ###");
 }
